@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dipositívos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+       <source media="(max-width: 750px )" srcset="imagens/imgpequena.jpeg" type="image/png">        
+       <source media="(max-width:1050px )" srcset="imagens/imgmedia.jpg" type="image/png">
+        <img src="imagens/imggrande.jpg" alt="imagem flexivel">
+        <h1>Reproduzindo áudios</h1>
+        <p>Vamos aprender a reproduzir áudios em html5</p>
+        <audio preload="auto" autoplay controls loop>
+            <source src="midia/Lawrence - TrackTribe.mp3" type="audio/mp3">
+            <p>Infelismente seu navegador não consegue reproduzir áudio.<a href="#">Clique aqui para baixar o arquivo.mp3</a></p>
+        </audio>
+    </picture>
+</body>
+</html>

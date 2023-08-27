@@ -1,0 +1,72 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'idroid';
+    src: url('__MACOSX/fontes/fontes/idroid.otf') format('opentype'), url('__MACOSX/fontes/fontes/idroid.otf');
+    font-weight: normal;
+    font-style: normal
+}
+header{
+    background-image: linear-gradient(to bottom, #C9F078, #1f9e18 );
+}
+
+body{
+   background-color: #18ED7D;
+   margin: auto;
+   padding: 0;  
+}
+
+div{
+    background-color: white;
+    width: 800px;
+    text-align: justify;
+    margin: auto; 
+}
+.cabecalho{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #1f9e18;
+}
+
+.titulo{
+    font-family: 'idroid', Times, serif;
+    color: #1f9e18;
+    padding-left: 10px;
+    font-style: normal;
+}
+h2{
+    color: #1f9e18;
+    background-image: linear-gradient(to right, #1f9e182e, #c8f07822 );
+    padding-left: 10px;
+}
+h3{
+    background-color: #219a1a;
+    color: white;  
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-indent: 30px;
+}
+
+.conteudo{
+    text-align: center;
+    text-indent: 30px;
+}
+.menu{
+    background-color: aliceblue;
+    width: 120px;
+    height: 30px;
+    margin: left 50%;
+    margin: auto;
+}
+.video{
+    background-color: #125a0e;
+    margin: auto;
+    
+}
+.links{
+    background-color: #C9F078;
+    width: 750px;
+    border-radius: 10px;
+    margin: auto;
+}
