@@ -15,6 +15,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
 main {
     position: relative;
     height: 100vh;
@@ -34,7 +35,7 @@ iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 266px;
+    width: 265px;
     height: 470px;
 }
 section#redes-sociais {
@@ -54,3 +55,4 @@ section#redes-sociais img:hover {
     transition: transform .5s, border 1s;
 
 }
+
